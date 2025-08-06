@@ -1,8 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
 import { GoogleGenAI } from "@google/genai";
 import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from "@google/generative-ai";
-import OpenAI from 'openai';
-import { aj } from "../arcjet/route";
 import { auth, currentUser } from "@clerk/nextjs/server";
 
 // const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY || "");
